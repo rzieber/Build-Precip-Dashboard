@@ -11,9 +11,9 @@ import requests
 from requests.auth import HTTPBasicAuth
 
 # ── Configuration ─────────────────────────────────────────────────────────────
-GRAFANA_URL     = "https://3d-trinidad.icdp.ucar.edu:3000"
+GRAFANA_URL     = "https://<chords-portal-here>:3000"
 GRAFANA_USER    = "admin"
-GRAFANA_PASS    = "3D_trinidad_grafana"
+GRAFANA_PASS    = "<grafana-password-here>"
 MYSQL_DB        = "chords_demo_production"
 INFLUXDB_URL    = "http://chords_influxdb:8086"
 INFLUXDB_DB     = "chords_ts_production"
